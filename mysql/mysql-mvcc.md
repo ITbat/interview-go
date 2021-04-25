@@ -93,7 +93,7 @@ MVCC 使用了“三个隐藏字段”来实现版本并发控制，我查了很
 
 这个时候我们将我们需要的隐藏列也标识出来，就变成了这样
 
-|isDelete	|id|	|name	|DB_TRX_ID	|DB_ROLL_PTR|
+|isDelete	|id |name	|DB_TRX_ID	|DB_ROLL_PTR|
 |----|----|----|----|----|----|
 |是否被删除	|学生id	|学生姓名|	创建删除更新该记录的事务id	|回滚指针|
 
